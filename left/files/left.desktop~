@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Left
+Comment=Distractionless plaintext editor
+TryExec=left
+Exec=left %u
+Icon=left
+Terminal=false
+Categories=Editor;

@@ -1,0 +1,72 @@
+name       : godot-classic
+version    : '3.2.1'
+release    : 24
+source     :
+    - https://github.com/godotengine/godot/archive/3.2.1-stable.tar.gz : 0f9635e5c014713340160d8bd0cbfc6d34a36d39402a84eaa0d8c5dee4d1c6f0 
+license    :
+    - CC-BY-3.0
+    - MIT
+component  :
+    - games
+    - ^godot-common : games
+    - ^godot-mono : games
+summary    :
+    - Godot Engine Classical version – Multi-platform 2D and 3D game engine
+    - ^godot-common : Shared resources for Godot Engine
+description: |
+    Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.
+networking : yes
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(bullet)
+    - pkgconfig(freetype2)
+    - pkgconfig(gl)
+    - pkgconfig(libenet)
+    - pkgconfig(libpcre2-posix)
+    - pkgconfig(libpng)
+    - pkgconfig(libpulse)
+    - pkgconfig(libwebp)
+    - pkgconfig(mono)
+    - pkgconfig(opusfile)
+    - pkgconfig(theora)
+    - pkgconfig(vorbis)
+    - pkgconfig(vpx)
+    - pkgconfig(xcursor)
+    - pkgconfig(xi)
+    - pkgconfig(xinerama)
+    - pkgconfig(xrandr)
+    - llvm-clang
+    - mono-msbuild
+    - nuget
+    - scons
+    - xorg-server-xvfb
+    - yasm
+rundeps    :
+    - godot-common
+patterns   :
+    - ^godot-common :
+        - /usr/share/icons
+        - /usr/share/pixmaps
+        - /usr/share/metainfo
+setup      : |
+    # This shouldn't be necessary with usysconf but ???
+    cert-sync --user /etc/ssl/certs/ca-certificates.crt
+build      : |
+    GODOT_OPTIONS="use_llvm=yes bits=64 deprecated=no builtin_enet=no builtin_freetype=no builtin_bullet=no builtin_libogg=no builtin_libpng=no builtin_libtheora=no builtin_libvpx=no builtin_libwebp=no builtin_openssl=no builtin_opus=no builtin_zlib=no builtin_pcre2=no udev=yes"
+
+    ##### Classical
+    # IDE
+    scons %JOBS% platform=x11 tools=yes $GODOT_OPTIONS target=release_debug
+    # Linux X11 64 Template
+    scons %JOBS% platform=x11 tools=no $GODOT_OPTIONS target=release
+
+install    : |
+    install -D -m 00755 bin/godot.x11.opt.* -t $installdir/%libdir%/godot
+    install -D -m 00644 icon.svg $installdir/usr/share/icons/hicolor/scalable/apps/godot.svg
+    install -D -m 00644 icon.png $installdir/usr/share/pixmaps/godot.png
+    install -D -m 00644 misc/dist/linux/org.godotengine.Godot.desktop $installdir/usr/share/applications/org.godotengine.Godot.desktop
+    install -D -m 00644 misc/dist/linux/godot.6 $installdir/usr/share/man/man6/godot.6
+    install -D -m 00644 misc/dist/linux/org.godotengine.Godot.appdata.xml $installdir/usr/share/metainfo/org.godotengine.Godot.appdata.xml
+    install -D -m 00644 misc/dist/linux/x-godot-project.xml $installdir/usr/share/mime/packages/org.godotengine.Godot.xml
+    install -d -m 00755 $installdir/usr/bin
+    ln -s %libdir%/godot/godot.x11.opt.tools.64.llvm $installdir/usr/bin/godot

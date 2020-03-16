@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>mongodb-compass</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <Summary>As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Summary>
+        <Description>As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Description>
+        <License>Custom</License>
+        <Archive sha1sum="26a2328d94c396fa0cda0484b5e4f5eff93b1a5e" type="binary">https://downloads.mongodb.com/compass/mongodb-compass_1.20.5_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>mongodb-compass</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libsecret</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>03-13-2020</Date>
+            <Version>1.20.5</Version>
+            <Comment>Add mongodb compass to repositories</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

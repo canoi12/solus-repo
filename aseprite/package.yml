@@ -1,0 +1,44 @@
+name       : aseprite
+version    : 1.2.17
+release    : 1
+source     :
+    - https://github.com/aseprite/aseprite/releases/download/v1.2.17/Aseprite-v1.2.17-Source.zip : 698fb3f667f643869995f2a2d615561ec23cf03c1362895f90ebcc29ed8c1fc1
+    - https://github.com/aseprite/skia/releases/download/m81-b607b32047/Skia-Linux-Release-x64.zip : 37cb146efbffb0571a541c48acd7926ed6571cd3aa50be67f8a9b97901e26769
+license    :
+    - Aseprite EULA
+component  :
+    - multimedia.graphics
+summary    :
+    - Animated sprite editor & pixel art tool
+description: |
+    Aseprite is a sprite editor that lets you create 2D animations for videogames. It can be used to create pixel-art, retro style graphics, and whatever you like about the 8-bit (and 16-bit) era.
+builddeps  :
+    - cmake
+    - ninja
+    - libstdc++
+    - git
+    - unzip
+    - pkgconfig(x11)
+    - pkgconfig(xcursor)
+    - pkgconfig(gl)
+    - pkgconfig(fontconfig)
+setup      : |
+    unzip $sources/Skia-Linux-Release-x64.zip -d $sources/skia
+    cmake -E make_directory build
+build      : |
+  CMAKE_OPTIONS="-DCMAKE_BUILD_TYPE=RelWithDebInfo -DLAF_BACKEND=skia -DSKIA_DIR=$sources/skia -DSKIA_LIBRARY_DIR=$sources/skia/out/Release-x64 -G Ninja .."
+  cmake -E chdir build cmake $CMAKE_OPTIONS
+  cd build
+  ninja aseprite
+install    : |
+    export asedir=/usr/share/aseprite
+    install -dm00644 $installdir/usr/bin
+    install -dm00644 $installdir/$asedir
+
+    cp -R $workdir/build/bin/* $installdir/$asedir
+
+    ln -s $asedir/aseprite $installdir/usr/bin/aseprite
+    #ln -s /usr/share/aseprite/data/icons/ase128.png $installdir/usr/share/pixmap/ase.png
+
+    install -D -m 00644 $pkgfiles/aseprite.desktop %installroot%/usr/share/applications/aseprite.desktop
+    install -Dm644 $installdir/$asedir/data/icons/ase128.png %installroot%/usr/share/pixmaps/ase.png

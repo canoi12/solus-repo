@@ -1,0 +1,140 @@
+<PISI>
+    <Source>
+        <Name>left</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>office</PartOf>
+        <Summary xml:lang="en">Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents.</Summary>
+        <Description xml:lang="en">Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents. It features an auto-complete, synonyms suggestions, writing statistics, markup-based navigation and a speed-reader.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>left</Name>
+        <Summary xml:lang="en">Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents.</Summary>
+        <Description xml:lang="en">Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents. It features an auto-complete, synonyms suggestions, writing statistics, markup-based navigation and a speed-reader.
+</Description>
+        <PartOf>office</PartOf>
+        <Files>
+            <Path fileType="data">/opt/Left/LICENSE</Path>
+            <Path fileType="data">/opt/Left/LICENSES.chromium.html</Path>
+            <Path fileType="data">/opt/Left/Left</Path>
+            <Path fileType="data">/opt/Left/chrome-sandbox</Path>
+            <Path fileType="data">/opt/Left/chrome_100_percent.pak</Path>
+            <Path fileType="data">/opt/Left/chrome_200_percent.pak</Path>
+            <Path fileType="data">/opt/Left/icudtl.dat</Path>
+            <Path fileType="data">/opt/Left/libEGL.so</Path>
+            <Path fileType="data">/opt/Left/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Left/libffmpeg.so</Path>
+            <Path fileType="data">/opt/Left/locales/am.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ar.pak</Path>
+            <Path fileType="data">/opt/Left/locales/bg.pak</Path>
+            <Path fileType="data">/opt/Left/locales/bn.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ca.pak</Path>
+            <Path fileType="data">/opt/Left/locales/cs.pak</Path>
+            <Path fileType="data">/opt/Left/locales/da.pak</Path>
+            <Path fileType="data">/opt/Left/locales/de.pak</Path>
+            <Path fileType="data">/opt/Left/locales/el.pak</Path>
+            <Path fileType="data">/opt/Left/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/Left/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/Left/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/Left/locales/es.pak</Path>
+            <Path fileType="data">/opt/Left/locales/et.pak</Path>
+            <Path fileType="data">/opt/Left/locales/fa.pak</Path>
+            <Path fileType="data">/opt/Left/locales/fi.pak</Path>
+            <Path fileType="data">/opt/Left/locales/fil.pak</Path>
+            <Path fileType="data">/opt/Left/locales/fr.pak</Path>
+            <Path fileType="data">/opt/Left/locales/gu.pak</Path>
+            <Path fileType="data">/opt/Left/locales/he.pak</Path>
+            <Path fileType="data">/opt/Left/locales/hi.pak</Path>
+            <Path fileType="data">/opt/Left/locales/hr.pak</Path>
+            <Path fileType="data">/opt/Left/locales/hu.pak</Path>
+            <Path fileType="data">/opt/Left/locales/id.pak</Path>
+            <Path fileType="data">/opt/Left/locales/it.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ja.pak</Path>
+            <Path fileType="data">/opt/Left/locales/kn.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ko.pak</Path>
+            <Path fileType="data">/opt/Left/locales/lt.pak</Path>
+            <Path fileType="data">/opt/Left/locales/lv.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ml.pak</Path>
+            <Path fileType="data">/opt/Left/locales/mr.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ms.pak</Path>
+            <Path fileType="data">/opt/Left/locales/nb.pak</Path>
+            <Path fileType="data">/opt/Left/locales/nl.pak</Path>
+            <Path fileType="data">/opt/Left/locales/pl.pak</Path>
+            <Path fileType="data">/opt/Left/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/Left/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ro.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ru.pak</Path>
+            <Path fileType="data">/opt/Left/locales/sk.pak</Path>
+            <Path fileType="data">/opt/Left/locales/sl.pak</Path>
+            <Path fileType="data">/opt/Left/locales/sr.pak</Path>
+            <Path fileType="data">/opt/Left/locales/sv.pak</Path>
+            <Path fileType="data">/opt/Left/locales/sw.pak</Path>
+            <Path fileType="data">/opt/Left/locales/ta.pak</Path>
+            <Path fileType="data">/opt/Left/locales/te.pak</Path>
+            <Path fileType="data">/opt/Left/locales/th.pak</Path>
+            <Path fileType="data">/opt/Left/locales/tr.pak</Path>
+            <Path fileType="data">/opt/Left/locales/uk.pak</Path>
+            <Path fileType="data">/opt/Left/locales/vi.pak</Path>
+            <Path fileType="data">/opt/Left/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/Left/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/Left/natives_blob.bin</Path>
+            <Path fileType="data">/opt/Left/resources.pak</Path>
+            <Path fileType="data">/opt/Left/resources/app/icon.icns</Path>
+            <Path fileType="data">/opt/Left/resources/app/icon.ico</Path>
+            <Path fileType="data">/opt/Left/resources/app/icon.png</Path>
+            <Path fileType="data">/opt/Left/resources/app/main.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/node_modules/.yarn-integrity</Path>
+            <Path fileType="data">/opt/Left/resources/app/node_modules/@types</Path>
+            <Path fileType="data">/opt/Left/resources/app/package-lock.json</Path>
+            <Path fileType="data">/opt/Left/resources/app/package.json</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/index.html</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/left.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/links/fonts.css</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/links/main.css</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/links/reset.css</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/links/theme.css</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/media/fonts/mono.ttf</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/media/fonts/sans_serif.ttf</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/media/fonts/serif.ttf</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/dictionary.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/events.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/font.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/go.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/insert.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/lib/controller.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/lib/theme.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/navi.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/operator.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/page.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/project.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/reader.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/splash.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/stats.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/sources/scripts/synonyms.js</Path>
+            <Path fileType="data">/opt/Left/resources/app/yarn.lock</Path>
+            <Path fileType="data">/opt/Left/resources/electron.asar</Path>
+            <Path fileType="data">/opt/Left/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/Left/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/opt/Left/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Left/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/opt/Left/version</Path>
+            <Path fileType="executable">/usr/bin/left</Path>
+            <Path fileType="data">/usr/share/applications/left.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/left.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-16</Date>
+            <Version>131</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

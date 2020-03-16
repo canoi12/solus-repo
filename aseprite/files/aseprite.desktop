@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Aseprite
+TryExec=aseprite
+Exec=aseprite %u
+Icon=ase
+Terminal=false
+Categories=Editor;Graphics;
+Comment=Animated sprite editor & pixel art tool

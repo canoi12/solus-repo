@@ -1,0 +1,55 @@
+<PISI>
+    <Source>
+        <Name>godot-classic</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>CC-BY-3.0</License>
+        <License>MIT</License>
+        <PartOf>games</PartOf>
+        <Summary xml:lang="en">Godot Engine Classical version – Multi-platform 2D and 3D game engine</Summary>
+        <Description xml:lang="en">Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>godot-classic</Name>
+        <Summary xml:lang="en">Godot Engine Classical version – Multi-platform 2D and 3D game engine</Summary>
+        <Description xml:lang="en">Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.
+</Description>
+        <PartOf>games</PartOf>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="24">godot-common</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin/godot</Path>
+            <Path fileType="library">/usr/lib64/godot/godot.x11.opt.64.llvm</Path>
+            <Path fileType="library">/usr/lib64/godot/godot.x11.opt.tools.64.llvm</Path>
+            <Path fileType="data">/usr/share/applications/org.godotengine.Godot.desktop</Path>
+            <Path fileType="man">/usr/share/man/man6/godot.6</Path>
+            <Path fileType="data">/usr/share/mime/packages/org.godotengine.Godot.xml</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>godot-common</Name>
+        <Summary xml:lang="en">Shared resources for Godot Engine</Summary>
+        <Description xml:lang="en">Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.
+</Description>
+        <PartOf>games</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/godot.svg</Path>
+            <Path fileType="data">/usr/share/metainfo/org.godotengine.Godot.appdata.xml</Path>
+            <Path fileType="data">/usr/share/pixmaps/godot.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="24">
+            <Date>2020-03-14</Date>
+            <Version>3.2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

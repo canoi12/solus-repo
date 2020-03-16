@@ -1,0 +1,222 @@
+<PISI>
+    <Package>
+        <Name>godot-classic</Name>
+        <Summary xml:lang="en">Godot Engine Classical version – Multi-platform 2D and 3D game engine</Summary>
+        <Description xml:lang="en">Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.</Description>
+        <PartOf>games</PartOf>
+        <License>CC-BY-3.0</License>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="7">libvpx</Dependency>
+            <Dependency releaseFrom="1">enet</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="5">opusfile</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="11">libvorbis</Dependency>
+            <Dependency releaseFrom="13">libwebp</Dependency>
+            <Dependency releaseFrom="11">bullet3</Dependency>
+            <Dependency releaseFrom="8">pcre2</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="6">libtheora</Dependency>
+            <Dependency releaseFrom="85">systemd</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="40">pulseaudio</Dependency>
+            <Dependency releaseFrom="10">opus</Dependency>
+            <Dependency releaseFrom="13">libxinerama</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="20">libpng</Dependency>
+            <Dependency releaseFrom="10">libogg</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="24">godot-common</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="24">
+                <Date>2020-03-14</Date>
+                <Version>3.2.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>106155307</InstalledSize>
+        <PackageSize>33177371</PackageSize>
+        <PackageHash>e27487f6fc2c4bc7ab242245d2523bfe45abb61d</PackageHash>
+        <PackageURI>godot-classic-3.2.1-24-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>godot-classic</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>mongodb-compass</Name>
+        <Summary xml:lang="en">As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Summary>
+        <Description xml:lang="en">As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Description>
+        <PartOf>unknown</PartOf>
+        <License>Custom</License>
+        <RuntimeDependencies>
+            <Dependency>libsecret</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>03-13-2020</Date>
+                <Version>1.20.5</Version>
+                <Comment>Add mongodb compass to repositories</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>433930613</InstalledSize>
+        <PackageSize>99178076</PackageSize>
+        <PackageHash>ac6b1c92b21ba15d79e02008d7efae29a77d6791</PackageHash>
+        <PackageURI>mongodb-compass-1.20.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>mongodb-compass</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>godot-common</Name>
+        <Summary xml:lang="en">Shared resources for Godot Engine</Summary>
+        <Description xml:lang="en">Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.</Description>
+        <PartOf>games</PartOf>
+        <License>CC-BY-3.0</License>
+        <License>MIT</License>
+        <History>
+            <Update release="24">
+                <Date>2020-03-14</Date>
+                <Version>3.2.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>16957</InstalledSize>
+        <PackageSize>12410</PackageSize>
+        <PackageHash>59712f0129c259d850fb6a6795906f5ec7b72b87</PackageHash>
+        <PackageURI>godot-common-3.2.1-24-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>godot-classic</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>aseprite</Name>
+        <Summary xml:lang="en">Animated sprite editor &amp; pixel art tool</Summary>
+        <Description xml:lang="en">Aseprite is a sprite editor that lets you create 2D animations for videogames. It can be used to create pixel-art, retro style graphics, and whatever you like about the 8-bit (and 16-bit) era.</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <License>Aseprite EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="37">openssl</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-14</Date>
+                <Version>1.2.17</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>16047950</InstalledSize>
+        <PackageSize>5774437</PackageSize>
+        <PackageHash>eb74e8b173be7703a7a79a4d38e00de389634ed2</PackageHash>
+        <PackageURI>aseprite-1.2.17-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>aseprite</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>left</Name>
+        <Summary xml:lang="en">Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents.</Summary>
+        <Description xml:lang="en">Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents. It features an auto-complete, synonyms suggestions, writing statistics, markup-based navigation and a speed-reader.</Description>
+        <PartOf>office</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-16</Date>
+                <Version>131</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>161942931</InstalledSize>
+        <PackageSize>51838180</PackageSize>
+        <PackageHash>1bb7a82375bfc54bca422ca59196fdde383e746e</PackageHash>
+        <PackageURI>left-131-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>left</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>

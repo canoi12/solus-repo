@@ -1,0 +1,34 @@
+name       : left 
+version    : "131"
+release    : 1
+source     :
+  - git|https://github.com/hundredrabbits/Left : master 
+license    :
+  - MIT
+component  :
+  - office
+summary    :
+  - Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents.
+description: |
+  Left is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents. It features an auto-complete, synonyms suggestions, writing statistics, markup-based navigation and a speed-reader.
+builddeps  :
+  - yarn
+rundeps    :
+  - expat
+networking : true
+setup      : |
+  cd desktop
+  yarn 
+build      : |
+  cd desktop
+
+  yarn build_linux
+install    : |
+  install -dm00755 $installdir/usr/bin
+  install -dm00644 $installdir/opt/Left
+
+  install -D -m 00644 desktop/icon.png $installdir/usr/share/pixmaps/left.png
+  install -D -m 00644 $pkgfiles/left.desktop $installdir/usr/share/applications/left.desktop
+  cp -r ~/Desktop/Left-linux-x64/* $installdir/opt/Left/
+
+  ln -s /opt/Left/Left $installdir/usr/bin/left
