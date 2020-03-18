@@ -8,6 +8,8 @@ personal solus repository
 | godot-classic   | 3.2.1   |
 | godot-common    | 3.2.1   |
 | left            | 131     |
+| dotgrid         | 139     |
+| ronin           | 82      |
 | mongodb-compass | 1.20.5  |
 | bully           | 1.1     |
 | cowpatty        | 4.8     |

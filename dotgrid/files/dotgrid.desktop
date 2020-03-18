@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Dotgrid
+Comment=Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.
+TryExec=dotgrid
+Exec=dotgrid %u
+Icon=dotgrid
+Terminal=false
+Categories=Graphics;

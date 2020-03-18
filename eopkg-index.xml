@@ -289,6 +289,53 @@
         </Source>
     </Package>
     <Package>
+        <Name>dotgrid</Name>
+        <Summary xml:lang="en">Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.</Summary>
+        <Description xml:lang="en">Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-18</Date>
+                <Version>139</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>178783897</InstalledSize>
+        <PackageSize>56225767</PackageSize>
+        <PackageHash>8a7cb8d9bd8ad7bc436ecd3727292a3197df0f52</PackageHash>
+        <PackageURI>dotgrid-139-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>dotgrid</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>cowpatty</Name>
         <Summary xml:lang="en">coWPAtty - Brute-force dictionary attack against WPA-PSK.</Summary>
         <Description xml:lang="en">coWPAtty - Brute-force dictionary attack against WPA-PSK.</Description>
@@ -432,6 +479,53 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>godot-classic</Name>
+            <Packager>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>ronin</Name>
+        <Summary xml:lang="en">Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images.</Summary>
+        <Description xml:lang="en">Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images.</Description>
+        <PartOf>programming</PartOf>
+        <License>MIT</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-18</Date>
+                <Version>82</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Canoi Gomes</Name>
+                <Email>canoimaster@gmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>178715765</InstalledSize>
+        <PackageSize>56247085</PackageSize>
+        <PackageHash>877ecdf270d971714ca2eda347542e99b4e66a98</PackageHash>
+        <PackageURI>ronin-82-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ronin</Name>
             <Packager>
                 <Name>Canoi Gomes</Name>
                 <Email>canoimaster@gmail.com</Email>

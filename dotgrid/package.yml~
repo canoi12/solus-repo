@@ -1,0 +1,34 @@
+name       : dotgrid 
+version    : "139"
+release    : 1
+source     :
+  - git|https://github.com/hundredrabbits/Dotgrid : master 
+license    :
+  - MIT
+component  :
+  - multimedia.graphics
+summary    :
+  - Dotgrid is a grid-based vector drawing software designed to create logos, icons and type. 
+description: |
+  Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.
+builddeps  :
+  - yarn
+rundeps    :
+  - expat
+networking : true
+setup      : |
+  cd desktop
+  yarn 
+build      : |
+  cd desktop
+
+  yarn build_linux
+install    : |
+  install -dm00755 $installdir/usr/bin
+  install -dm00644 $installdir/opt/Dotgrid
+
+  install -D -m 00644 desktop/icon.svg $installdir/usr/share/pixmaps/dotgrid.svg
+  install -D -m 00644 $pkgfiles/dotgrid.desktop $installdir/usr/share/applications/dotgrid.desktop
+  cp -r ~/Desktop/Dotgrid-linux-x64/* $installdir/opt/Dotgrid/
+
+  ln -s /opt/Dotgrid/Dotgrid $installdir/usr/bin/dotgrid

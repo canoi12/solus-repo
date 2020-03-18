@@ -1,0 +1,35 @@
+name       : ronin 
+version    : "82"
+release    : 1
+source     :
+  - git|https://github.com/hundredrabbits/Ronin : master 
+license    :
+  - MIT
+component  :
+  - multimedia.graphics
+  - programming
+summary    :
+  - Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. 
+description: |
+  Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. 
+builddeps  :
+  - yarn
+rundeps    :
+  - expat
+networking : true
+setup      : |
+  cd desktop
+  yarn 
+build      : |
+  cd desktop
+
+  yarn build_linux
+install    : |
+  install -dm00755 $installdir/usr/bin
+  install -dm00644 $installdir/opt/Ronin
+
+  install -D -m 00644 desktop/icon.svg $installdir/usr/share/pixmaps/ronin.svg
+  install -D -m 00644 $pkgfiles/ronin.desktop $installdir/usr/share/applications/ronin.desktop
+  cp -r ~/Documents/Ronin-linux-x64/* $installdir/opt/Ronin/
+
+  ln -s /opt/Ronin/Ronin $installdir/usr/bin/ronin

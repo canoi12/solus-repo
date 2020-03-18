@@ -1,0 +1,144 @@
+<PISI>
+    <Source>
+        <Name>dotgrid</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>multimedia.graphics</PartOf>
+        <Summary xml:lang="en">Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.</Summary>
+        <Description xml:lang="en">Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>dotgrid</Name>
+        <Summary xml:lang="en">Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.</Summary>
+        <Description xml:lang="en">Dotgrid is a grid-based vector drawing software designed to create logos, icons and type.
+</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <Files>
+            <Path fileType="data">/opt/Dotgrid/Dotgrid</Path>
+            <Path fileType="data">/opt/Dotgrid/LICENSE</Path>
+            <Path fileType="data">/opt/Dotgrid/LICENSES.chromium.html</Path>
+            <Path fileType="data">/opt/Dotgrid/chrome-sandbox</Path>
+            <Path fileType="data">/opt/Dotgrid/chrome_100_percent.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/chrome_200_percent.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/icudtl.dat</Path>
+            <Path fileType="data">/opt/Dotgrid/libEGL.so</Path>
+            <Path fileType="data">/opt/Dotgrid/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Dotgrid/libffmpeg.so</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/am.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ar.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/bg.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/bn.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ca.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/cs.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/da.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/de.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/el.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/es.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/et.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/fa.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/fi.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/fil.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/fr.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/gu.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/he.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/hi.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/hr.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/hu.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/id.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/it.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ja.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/kn.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ko.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/lt.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/lv.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ml.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/mr.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ms.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/nb.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/nl.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/pl.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ro.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ru.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/sk.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/sl.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/sr.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/sv.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/sw.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/ta.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/te.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/th.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/tr.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/uk.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/vi.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/natives_blob.bin</Path>
+            <Path fileType="data">/opt/Dotgrid/resources.pak</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/icon.icns</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/icon.ico</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/icon.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/main.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/node_modules/.yarn-integrity</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/node_modules/@electron</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/node_modules/@sindresorhus</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/node_modules/@szmarczak</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/node_modules/@types</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/package.json</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/index.html</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/links/fonts.css</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/links/main.css</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/links/reset.css</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/links/theme.css</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/fonts/input_mono_medium.ttf</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/fonts/input_mono_regular.ttf</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/arc_clockwise.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/arc_reverse.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/bezier.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/close.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/export.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/line.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/media/icons/mirror.svg</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/client.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/cursor.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/generator.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/interface.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/lib/acels.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/lib/history.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/lib/source.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/lib/theme.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/manager.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/picker.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/renderer.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/sources/scripts/tool.js</Path>
+            <Path fileType="data">/opt/Dotgrid/resources/app/yarn.lock</Path>
+            <Path fileType="data">/opt/Dotgrid/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/Dotgrid/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/opt/Dotgrid/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Dotgrid/swiftshader/libvk_swiftshader.so</Path>
+            <Path fileType="data">/opt/Dotgrid/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/opt/Dotgrid/version</Path>
+            <Path fileType="executable">/usr/bin/dotgrid</Path>
+            <Path fileType="data">/usr/share/applications/dotgrid.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/dotgrid.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-18</Date>
+            <Version>139</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

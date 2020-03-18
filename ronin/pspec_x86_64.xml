@@ -1,0 +1,133 @@
+<PISI>
+    <Source>
+        <Name>ronin</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images.</Summary>
+        <Description xml:lang="en">Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. 
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ronin</Name>
+        <Summary xml:lang="en">Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images.</Summary>
+        <Description xml:lang="en">Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. 
+</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/Ronin/LICENSE</Path>
+            <Path fileType="data">/opt/Ronin/LICENSES.chromium.html</Path>
+            <Path fileType="data">/opt/Ronin/Ronin</Path>
+            <Path fileType="data">/opt/Ronin/chrome-sandbox</Path>
+            <Path fileType="data">/opt/Ronin/chrome_100_percent.pak</Path>
+            <Path fileType="data">/opt/Ronin/chrome_200_percent.pak</Path>
+            <Path fileType="data">/opt/Ronin/icudtl.dat</Path>
+            <Path fileType="data">/opt/Ronin/libEGL.so</Path>
+            <Path fileType="data">/opt/Ronin/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Ronin/libffmpeg.so</Path>
+            <Path fileType="data">/opt/Ronin/locales/am.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ar.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/bg.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/bn.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ca.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/cs.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/da.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/de.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/el.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/es.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/et.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/fa.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/fi.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/fil.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/fr.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/gu.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/he.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/hi.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/hr.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/hu.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/id.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/it.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ja.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/kn.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ko.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/lt.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/lv.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ml.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/mr.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ms.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/nb.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/nl.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/pl.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ro.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ru.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/sk.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/sl.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/sr.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/sv.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/sw.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/ta.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/te.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/th.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/tr.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/uk.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/vi.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/Ronin/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/Ronin/natives_blob.bin</Path>
+            <Path fileType="data">/opt/Ronin/resources.pak</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/icon.icns</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/icon.ico</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/icon.png</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/icon.svg</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/main.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/node_modules/.yarn-integrity</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/node_modules/@electron</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/node_modules/@sindresorhus</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/node_modules/@szmarczak</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/node_modules/@types</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/package-lock.json</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/package.json</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/index.html</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/links/fonts.css</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/links/main.css</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/links/reset.css</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/links/theme.css</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/client.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/commander.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/lib/acels.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/lib/lisp.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/lib/source.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/lib/theme.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/library.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/sources/scripts/surface.js</Path>
+            <Path fileType="data">/opt/Ronin/resources/app/yarn.lock</Path>
+            <Path fileType="data">/opt/Ronin/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/Ronin/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/opt/Ronin/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Ronin/swiftshader/libvk_swiftshader.so</Path>
+            <Path fileType="data">/opt/Ronin/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/opt/Ronin/version</Path>
+            <Path fileType="executable">/usr/bin/ronin</Path>
+            <Path fileType="data">/usr/share/applications/ronin.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/ronin.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-18</Date>
+            <Version>82</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Ronin
+Comment=Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images.
+TryExec=ronin
+Exec=ronin %u
+Icon=ronin
+Terminal=false
+Categories=Graphics;
