@@ -1,0 +1,24 @@
+name       : cowpatty 
+version    : "4.8"
+release    : 1
+source     :
+  - git|https://github.com/joswr1ght/cowpatty : 4.8 
+license    :
+  - Personal
+component  :
+  - security
+summary    :
+  - coWPAtty - Brute-force dictionary attack against WPA-PSK.
+description: |
+  coWPAtty - Brute-force dictionary attack against WPA-PSK.
+builddeps  :
+  - llvm-clang
+  - pkgconfig(libpcap)
+  - openssl
+rundeps    :
+  - openssl
+networking : true
+build      : |
+  %make
+install    : |
+  %make_install

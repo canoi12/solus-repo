@@ -1,0 +1,25 @@
+name       : wifite 
+version    : "2.2.5"
+release    : 1
+source     :
+  - git|https://github.com/derv82/wifite2 : 2.2.5 
+license    :
+  - GPL2
+component  :
+  - security
+summary    :
+  - Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments & switches!
+description: |
+  Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments & switches!
+rundeps  :
+  - aircrack-ng
+  - python
+networking : true
+install    : |
+  install -dm00644 $installdir/usr/lib/python2.7/site-packages/wifite
+  install -dm00755 $installdir/usr/sbin/
+
+  cp $pkgfiles/wifite-2.2.5-py2.7.egg-info $installdir/usr/lib/python2.7/site-packages/
+  cp -r wifite/* $installdir/usr/lib/python2.7/site-packages/wifite/
+  cp bin/wifite $installdir/usr/sbin/
+  #python setup.py install

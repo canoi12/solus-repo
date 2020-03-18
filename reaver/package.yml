@@ -1,0 +1,25 @@
+name       : reaver 
+version    : "1.6.6"
+release    : 1
+source     :
+  - git|https://github.com/t6x/reaver-wps-fork-t6x : v1.6.6 
+license    :
+  - GPL2
+component  :
+  - security
+summary    :
+  - Reaver implements a brute force attack against Wifi Protected Setup (WPS)
+description: |
+  Reaver implements a brute force attack against Wifi Protected Setup (WPS)
+builddeps  :
+  - pkgconfig(libpcap)
+networking : true
+setup      : |
+  cd src
+  %configure
+build      : |
+  cd src
+  %make
+install    : |
+  cd src
+  %make_install

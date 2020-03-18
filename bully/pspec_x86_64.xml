@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>bully</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>GPL3</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">Bully is a new implementation of the WPS brute force attack, written in C.</Summary>
+        <Description xml:lang="en">Bully is a new implementation of the WPS brute force attack, written in C.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>bully</Name>
+        <Summary xml:lang="en">Bully is a new implementation of the WPS brute force attack, written in C.</Summary>
+        <Description xml:lang="en">Bully is a new implementation of the WPS brute force attack, written in C.
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="data">/usr/local/bin/bully</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-18</Date>
+            <Version>1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

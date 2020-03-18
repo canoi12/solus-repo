@@ -1,0 +1,24 @@
+name       : bully 
+version    : "1.1"
+release    : 1
+source     :
+  - git|https://github.com/aanarchyy/bully : 1.1 
+license    :
+  - GPL3
+component  :
+  - security
+summary    :
+  - Bully is a new implementation of the WPS brute force attack, written in C.
+description: |
+  Bully is a new implementation of the WPS brute force attack, written in C.
+builddeps  :
+  - pkgconfig(libpcap)
+rundeps    :
+  - pixiewps
+networking : true
+build      : |
+  cd src
+  %make
+install    : |
+  cd src
+  %make_install

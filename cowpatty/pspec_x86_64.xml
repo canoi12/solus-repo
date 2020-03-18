@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>cowpatty</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>Personal</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">coWPAtty - Brute-force dictionary attack against WPA-PSK.</Summary>
+        <Description xml:lang="en">coWPAtty - Brute-force dictionary attack against WPA-PSK.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>cowpatty</Name>
+        <Summary xml:lang="en">coWPAtty - Brute-force dictionary attack against WPA-PSK.</Summary>
+        <Description xml:lang="en">coWPAtty - Brute-force dictionary attack against WPA-PSK.
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="data">/usr/local/bin/cowpatty</Path>
+            <Path fileType="data">/usr/local/bin/genpmk</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-18</Date>
+            <Version>4.8</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

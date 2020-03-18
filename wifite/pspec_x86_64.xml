@@ -1,0 +1,79 @@
+<PISI>
+    <Source>
+        <Name>wifite</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>GPL2</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments &amp; switches!</Summary>
+        <Description xml:lang="en">Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments &amp; switches!
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>wifite</Name>
+        <Summary xml:lang="en">Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments &amp; switches!</Summary>
+        <Description xml:lang="en">Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments &amp; switches!
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite-2.2.5-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/args.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/attack/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/attack/all.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/attack/pmkid.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/attack/wep.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/attack/wpa.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/attack/wps.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/attack.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/handshake.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/pmkid_result.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/result.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/target.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/wep_result.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/wpa_result.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/model/wps_result.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/aircrack.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/aireplay.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/airmon.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/airodump.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/bully.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/cowpatty.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/dependency.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/hashcat.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/ifconfig.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/iwconfig.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/john.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/macchanger.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/pyrit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/reaver.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/tshark.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/tools/wash.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/color.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/crack.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/input.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/process.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/scanner.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wifite/util/timer.py</Path>
+            <Path fileType="executable">/usr/sbin/wifite</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-18</Date>
+            <Version>2.2.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

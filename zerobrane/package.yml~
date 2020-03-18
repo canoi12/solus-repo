@@ -1,0 +1,24 @@
+name       : zerobrane 
+version    : "1.90"
+release    : 1
+source     :
+  - git|https://github.com/pkulchenko/ZeroBraneStudio : 1.90 
+license    :
+  - MIT
+component  :
+  - programming.ide
+summary    :
+  - ZeroBrane Studio is a lightweight cross-platform Lua IDE
+description: |
+  - ZeroBrane Studio is a lightweight cross-platform Lua IDE with code completion, syntax highlighting, remote debugger, code analyzer, live coding, and debugging support for various Lua engines (Lua 5.1, Lua 5.2, Lua 5.3, Lua 5.4, LuaJIT, LÖVE, Moai, Gideros, Corona, Marmalade Quick, Cocos2d-x, OpenResty/Nginx, Torch7, Redis, GSL-shell, Adobe Lightroom, Lapis, Moonscript, and others).
+builddeps:
+  - libglvnd-devel
+install    : |
+  install -dm00755 $installdir/usr/bin
+  install -dm00644 $installdir/opt/ZeroBrane
+
+  install -D -m 00644 $pkgfiles/zerobrane.png $installdir/usr/share/pixmaps/zerobrane.png
+  install -D -m 00644 $pkgfiles/zerobrane.desktop $installdir/usr/share/applications/zerobrane.desktop
+  cp -r $workdir/* $installdir/opt/ZeroBrane/
+
+  ln -s /opt/ZeroBrane/zbstudio.sh $installdir/usr/bin/zbstudio

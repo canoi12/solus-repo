@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ZeroBrane
+Comment=ZeroBrane Studio is a lightweight cross-platform Lua IDE
+TryExec=zbstudio
+Exec=zbstudio %u
+Icon=zerobrane
+Terminal=false
+Categories=Editor;

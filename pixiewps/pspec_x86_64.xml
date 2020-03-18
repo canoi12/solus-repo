@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>pixiewps</Name>
+        <Packager>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Packager>
+        <License>GPL3</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">Pixiewps is a tool written in C used to bruteforce offline the WPS PIN exploiting the low or non-existing entropy of some software implementations</Summary>
+        <Description xml:lang="en">Pixiewps is a tool written in C used to bruteforce offline the WPS PIN exploiting the low or non-existing entropy of some software implementations
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>pixiewps</Name>
+        <Summary xml:lang="en">Pixiewps is a tool written in C used to bruteforce offline the WPS PIN exploiting the low or non-existing entropy of some software implementations</Summary>
+        <Description xml:lang="en">Pixiewps is a tool written in C used to bruteforce offline the WPS PIN exploiting the low or non-existing entropy of some software implementations
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="data">/usr/local/bin/pixiewps</Path>
+            <Path fileType="data">/usr/local/share/man/man1/pixiewps.1</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-18</Date>
+            <Version>1.4.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Canoi Gomes</Name>
+            <Email>canoimaster@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
