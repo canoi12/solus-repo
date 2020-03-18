@@ -11,7 +11,7 @@ summary    :
   - Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments & switches!
 description: |
   Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments & switches!
-builddeps  :
+rundeps  :
   - aircrack-ng
   - python
 networking : true
