@@ -139,6 +139,15 @@
         <Description xml:lang="en">Wifite runs existing wireless-auditing tools for you. Stop memorizing command arguments &amp; switches!</Description>
         <PartOf>security</PartOf>
         <License>GPL2</License>
+        <RuntimeDependencies>
+            <Dependency>aircrack-ng</Dependency>
+            <Dependency>python</Dependency>
+            <Dependency>reaver</Dependency>
+            <Dependency>wireshark</Dependency>
+            <Dependency>bully</Dependency>
+            <Dependency>cowpatty</Dependency>
+            <Dependency>hashcat</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="1">
                 <Date>2020-03-18</Date>
@@ -153,8 +162,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>258572</InstalledSize>
-        <PackageSize>59379</PackageSize>
-        <PackageHash>5833d230e2aa0a1b8e0dde16cfc0d305c2ab92bf</PackageHash>
+        <PackageSize>59444</PackageSize>
+        <PackageHash>f8e4c84d352c23b83dae91b601e3a471e7c93e50</PackageHash>
         <PackageURI>wifite-2.2.5-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
