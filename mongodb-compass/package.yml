@@ -1,0 +1,25 @@
+name       : mongodb-compass
+version    : "1.20.5"
+release    : 1
+source     :
+  - https://downloads.mongodb.com/compass/mongodb-compass_1.20.5_amd64.deb : 8a8793c9b0f7af65ddb5017c3305be093a73aa323692fd623494f96d9da37467
+license    :
+  - Proprietary
+component  :
+  - network.utils
+summary    :
+  - As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.
+description: |
+  As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.
+builddeps  :
+  - binutils
+rundeps    :
+  - libsecret
+  - gconf
+networking : true
+setup      : |
+  ar xf $sources/mongodb-compass_%version%_amd64.deb 
+  tar xJvf data.tar.xz
+install    : |
+  install -dm00644 $installdir/usr
+  cp -r usr/* $installdir/usr

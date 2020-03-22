@@ -1,41 +1,4 @@
 <PISI>
-    <SpecFile>
-        <Source>
-            <Name>mongodb-compass</Name>
-            <Packager>
-                <Name>Canoi Gomes</Name>
-                <Email>canoimaster@gmail.com</Email>
-            </Packager>
-            <License>Custom</License>
-            <PartOf>unknown</PartOf>
-            <Summary xml:lang="en">As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Summary>
-            <Description xml:lang="en">As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Description>
-            <Archive type="binary" sha1sum="26a2328d94c396fa0cda0484b5e4f5eff93b1a5e">https://downloads.mongodb.com/compass/mongodb-compass_1.20.5_amd64.deb</Archive>
-            <BuildDependencies>
-                <Dependency>binutils</Dependency>
-            </BuildDependencies>
-            <SourceURI>mongodb-compass/pspec.xml</SourceURI>
-        </Source>
-        <Package>
-            <Name>mongodb-compass</Name>
-            <RuntimeDependencies>
-                <Dependency>libsecret</Dependency>
-                <Dependency>gconf</Dependency>
-            </RuntimeDependencies>
-            <Files>
-                <Path fileType="*">/</Path>
-            </Files>
-        </Package>
-        <History>
-            <Update release="1">
-                <Date>03-13-2020</Date>
-                <Version>1.20.5</Version>
-                <Comment>Add mongodb compass to repositories</Comment>
-                <Name>Canoi Gomes</Name>
-                <Email>canoimaster@gmail.com</Email>
-            </Update>
-        </History>
-    </SpecFile>
     <Package>
         <Name>pixiewps</Name>
         <Summary xml:lang="en">Pixiewps is a tool written in C used to bruteforce offline the WPS PIN exploiting the low or non-existing entropy of some software implementations</Summary>
@@ -214,17 +177,26 @@
         <Name>mongodb-compass</Name>
         <Summary xml:lang="en">As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Summary>
         <Description xml:lang="en">As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.</Description>
-        <PartOf>unknown</PartOf>
-        <License>Custom</License>
+        <PartOf>network.utils</PartOf>
+        <License>Proprietary</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="16">kerberos</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
             <Dependency>libsecret</Dependency>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>03-13-2020</Date>
+                <Date>2020-03-22</Date>
                 <Version>1.20.5</Version>
-                <Comment>Add mongodb compass to repositories</Comment>
+                <Comment>Packaging update</Comment>
                 <Name>Canoi Gomes</Name>
                 <Email>canoimaster@gmail.com</Email>
             </Update>
@@ -233,9 +205,9 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>433930613</InstalledSize>
-        <PackageSize>99178076</PackageSize>
-        <PackageHash>ac6b1c92b21ba15d79e02008d7efae29a77d6791</PackageHash>
+        <InstalledSize>433903549</InstalledSize>
+        <PackageSize>99174634</PackageSize>
+        <PackageHash>49d80144406c1156bddfaad31d0cff3226c38955</PackageHash>
         <PackageURI>mongodb-compass-1.20.5-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
